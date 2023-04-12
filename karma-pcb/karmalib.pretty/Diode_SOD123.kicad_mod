@@ -21,7 +21,7 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp ecc0ecab-1aee-4b43-b7ae-3554c9fac2a0))
   (pad "1" smd rect (at -1.7 0) (size 1.8 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fd71efeb-8e32-4715-9e6b-160a10304850))
   (pad "2" smd rect (at 1.7 0) (size 1.8 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f83d585b-4500-4163-a4ff-1ca733793bb7))
-  (model "${KIPRJMOD}/TOTEM3D/D_SOD-123.step"
+  (model "${KIPRJMOD}/karmalib.step/Diode_SOD123.step"
     (offset (xyz 0 0 -0.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

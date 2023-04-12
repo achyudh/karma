@@ -71,4 +71,9 @@
   (pad "18" thru_hole circle (at 1.27 -6.032 90) (size 1.397 1.397) (drill 1.016) (layers "*.Cu" "*.Mask") (tstamp 5aa3a350-81ea-4759-8164-45e4cfc68b3a))
   (pad "19" thru_hole circle (at -4.445 -0.317 180) (size 1.397 1.397) (drill 1.016) (layers "*.Cu" "*.Mask") (tstamp 79509df8-dd6d-474b-bcaa-263daec27871))
   (pad "20" thru_hole circle (at -4.445 -2.222 180) (size 1.397 1.397) (drill 1.016) (layers "*.Cu" "*.Mask") (tstamp 4a564fab-879b-49c4-b927-6f8f249dc7f0))
+  (model "${KIPRJMOD}/karmalib.step/XIAO_nRF52840.step"
+    (offset (xyz -3 38.5 8))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )

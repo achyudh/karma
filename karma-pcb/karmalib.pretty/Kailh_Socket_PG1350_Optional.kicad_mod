@@ -150,14 +150,14 @@
       efe0b57d-53ab-483c-b324-b219ef3d8853
     )
   )
-  (model "${KIPRJMOD}/TOTEM3D/Kailh_switch_PG1350_optional.step"
+  (model "${KIPRJMOD}/karmalib.step/Kailh_Switch_PG1350_Optional.step"
     (offset (xyz 0 0 2))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -180))
+    (rotate (xyz 0 0 180))
   )
-  (model "${KIPRJMOD}/TOTEM3D/Kailh_socket_PG1350_optional.STEP"
-    (offset (xyz 10 5.95 -1.8))
+  (model "${KIPRJMOD}/karmalib.step/Kailh_Socket_PG1350_Optional.step"
+    (offset (xyz -5 3.95 -1.8))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
+    (rotate (xyz -90 0 180))
   )
 )
