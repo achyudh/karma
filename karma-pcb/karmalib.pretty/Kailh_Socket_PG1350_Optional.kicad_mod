@@ -158,4 +158,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
+  (model "${KIPRJMOD}/karmalib.step/Keycap.step"
+    (offset (xyz 0 0 7.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
