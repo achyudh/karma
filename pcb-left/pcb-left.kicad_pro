@@ -407,7 +407,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "left-pcb.kicad_pro",
+    "filename": "pcb-left.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -443,7 +443,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "left-pcb.step",
+      "step": "pcb-left.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
