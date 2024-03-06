@@ -7,7 +7,7 @@
   (title_block
     (title "Karma Wireless Split Ergonomic Keyboard")
     (date "2023-04-04")
-    (rev "0.1")
+    (rev "0.32")
   )
 
   (lib_symbols
@@ -726,10 +726,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "GND_R" (shape input) (at 152.4254 41.3512 0) (fields_autoplaced)
+  (global_label "VBAT_R" (shape input) (at 152.4254 41.3512 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1b0e2ae5-18de-4b28-8f00-2de1dbd0b75d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 161.4393 41.3512 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 161.9836 41.3512 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -824,10 +824,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "VBAT_R" (shape input) (at 152.4254 38.8112 0) (fields_autoplaced)
+  (global_label "GND_R" (shape input) (at 152.4254 38.8112 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7f766a66-8585-4c00-8847-25a498228e20)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 161.9836 38.8112 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 161.4393 38.8112 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -918,7 +918,7 @@
           (reference "DR8") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR8") (unit 1)
         )
@@ -949,7 +949,7 @@
           (reference "DR4") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR2") (unit 1)
         )
@@ -980,7 +980,7 @@
           (reference "DR10") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR6") (unit 1)
         )
@@ -1011,7 +1011,7 @@
           (reference "SWR12") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR14") (unit 1)
         )
@@ -1042,7 +1042,7 @@
           (reference "SWR8") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR8") (unit 1)
         )
@@ -1073,7 +1073,7 @@
           (reference "SWR3") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR3") (unit 1)
         )
@@ -1104,7 +1104,7 @@
           (reference "SWR14") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR12") (unit 1)
         )
@@ -1135,7 +1135,7 @@
           (reference "DR14") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR12") (unit 1)
         )
@@ -1166,7 +1166,7 @@
           (reference "DR13") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR13") (unit 1)
         )
@@ -1197,7 +1197,7 @@
           (reference "SWR15") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR11") (unit 1)
         )
@@ -1228,7 +1228,7 @@
           (reference "DR17") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR18") (unit 1)
         )
@@ -1259,7 +1259,7 @@
           (reference "SWR19") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR16") (unit 1)
         )
@@ -1290,7 +1290,7 @@
           (reference "DR15") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR11") (unit 1)
         )
@@ -1321,7 +1321,7 @@
           (reference "DR2") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR4") (unit 1)
         )
@@ -1352,7 +1352,7 @@
           (reference "SWR4") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR2") (unit 1)
         )
@@ -1383,7 +1383,7 @@
           (reference "DR11") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR15") (unit 1)
         )
@@ -1414,7 +1414,7 @@
           (reference "DR1") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR5") (unit 1)
         )
@@ -1445,7 +1445,7 @@
           (reference "DR3") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR3") (unit 1)
         )
@@ -1476,7 +1476,7 @@
           (reference "DR5") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR1") (unit 1)
         )
@@ -1507,7 +1507,7 @@
           (reference "RSW2") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "RSW2") (unit 1)
         )
@@ -1538,7 +1538,7 @@
           (reference "SWR13") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR13") (unit 1)
         )
@@ -1569,7 +1569,7 @@
           (reference "SWR10") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR6") (unit 1)
         )
@@ -1600,7 +1600,7 @@
           (reference "DR9") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR7") (unit 1)
         )
@@ -1631,7 +1631,7 @@
           (reference "SWR9") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR7") (unit 1)
         )
@@ -1662,7 +1662,7 @@
           (reference "DR18") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR17") (unit 1)
         )
@@ -1693,7 +1693,7 @@
           (reference "SWR2") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR4") (unit 1)
         )
@@ -1729,7 +1729,7 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "J2") (unit 1)
         )
@@ -1760,7 +1760,7 @@
           (reference "DR6") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR10") (unit 1)
         )
@@ -1791,7 +1791,7 @@
           (reference "SWR6") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR10") (unit 1)
         )
@@ -1822,7 +1822,7 @@
           (reference "DR12") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR14") (unit 1)
         )
@@ -1853,7 +1853,7 @@
           (reference "DR7") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR9") (unit 1)
         )
@@ -1884,7 +1884,7 @@
           (reference "SWR17") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR18") (unit 1)
         )
@@ -1915,7 +1915,7 @@
           (reference "SWR7") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR9") (unit 1)
         )
@@ -1946,7 +1946,7 @@
           (reference "SWR1") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR5") (unit 1)
         )
@@ -1977,7 +1977,7 @@
           (reference "SWR18") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR17") (unit 1)
         )
@@ -2028,7 +2028,7 @@
           (reference "U2") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "U2") (unit 1)
         )
@@ -2059,7 +2059,7 @@
           (reference "SWR5") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR1") (unit 1)
         )
@@ -2090,7 +2090,7 @@
           (reference "SWR11") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "SWR15") (unit 1)
         )
@@ -2121,7 +2121,7 @@
           (reference "DR19") (unit 1)
         )
       )
-      (project "right-pcb"
+      (project "pcb-right"
         (path "/f98b87e5-a6a7-4c83-9bb9-aca334f9bfc8"
           (reference "DR16") (unit 1)
         )
