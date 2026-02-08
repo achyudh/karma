@@ -40,9 +40,9 @@ To build the Karma keyboard, you'll need the following components:
 ### Assembly
 
 **1. Order the Components**
-- Zip up the gerber files for the [left side](./pcb-left/pcb-left-gerbers/) and the [right side](./pcb-right/pcb-right-gerbers/).
+- Zip up the gerber files for the [left side](./mk1/pcb-left/pcb-left-gerbers/) and the [right side](./mk1/pcb-right/pcb-right-gerbers/).
 - Order the PCBs from a PCB prototype manufacturer like JLCPCB.
-- 3D print the STL files for the case in [this repo](./enclosure/).
+- 3D print the STL files for the case in [this repo](./mk1/enclosure/).
 - All the other components are generic and can be found in Aliexpress.
 
 **2. Solder the Diodes**
