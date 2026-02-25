@@ -160,10 +160,269 @@
 	(net 30 "COL4_L")
 	(net 31 "unconnected-(U1-B8_TX{slash}1.11-Pad7)")
 	(net 32 "unconnected-(U1-B9_RX{slash}1.12-Pad8)")
-	(net 33 "unconnected-(U1-3V3-Pad12)")
+	(net 33 "SWDCLK_L")
 	(net 34 "unconnected-(U1-5V-Pad14)")
-	(net 35 "unconnected-(U1-A31_SWDIO-Pad15)")
-	(net 36 "unconnected-(U1-A30_SWCLK-Pad16)")
+	(net 35 "3V3_L")
+	(net 36 "SWDIO_L")
+	(net 37 "unconnected-(SW1-C-Pad3)")
+	(net 38 "VSW_L")
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(layer "F.Cu")
+		(uuid "0002c32a-4e95-4ccd-98a8-9bace407d07c")
+		(at 19.895625 104.675 90)
+		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x05 2.54mm single row")
+		(property "Reference" "J2"
+			(at 0 -2.38 90)
+			(layer "F.SilkS")
+			(uuid "3eca3158-5594-4505-9a9a-168a5672b51f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Socket"
+			(at 0 12.54 90)
+			(layer "F.Fab")
+			(uuid "34eca316-07b8-46e3-91bd-82c780e9f5c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f94aa4a-c1f3-433c-a9f8-1119e1a46f2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d84bbd18-d3d7-47ee-b147-7ac4539d8448")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/1594fe76-22a3-41ae-9982-0ccbfb3224aa")
+		(sheetname "/")
+		(sheetfile "pcb-left.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9c2c2e6b-a1db-4ba8-b2c7-06bf49f7a706")
+		)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dd4a8bdf-fce7-4674-9a66-c0751f9c7999")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 11.54)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a1b24436-e76c-48ff-9613-c3e1cfea8937")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ca930bb1-5b19-405d-b971-554ab25338b7")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 11.54)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4ab657ed-fca3-44a2-829e-9bc7e1830ecd")
+		)
+		(fp_line
+			(start -1.38 11.54)
+			(end 1.38 11.54)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f2750720-c999-45e1-846b-11889a570ca6")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 11.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "818fcbc1-8f1e-43ff-9c40-d2c76e097397")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 11.43)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8be62779-3fa7-44ed-89ec-e3a35545fb71")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f7903186-3f36-4812-9300-21c6a6442467")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cf66bda6-8ac2-4430-8408-9375e2bfbf2b")
+		)
+		(fp_line
+			(start 1.27 11.43)
+			(end -1.27 11.43)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e3b9f023-8744-4b77-89b3-98bc70223cac")
+		)
+		(fp_line
+			(start -1.27 11.43)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d4e8c31f-0a81-46d0-a130-c3f1334e7ae7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 5.08 0)
+			(layer "F.Fab")
+			(uuid "634f73da-cbdd-4491-be51-2431f502b5a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 35 "3V3_L")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "8ca09f34-a6f5-465c-ba65-43aa127a0f45")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 36 "SWDIO_L")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "9727251e-c2b7-4c49-86af-ec6ba6a4a492")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5.08 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 33 "SWDCLK_L")
+			(pinfunction "Pin_3")
+			(pintype "passive")
+			(uuid "07d7173f-4576-47ec-93cf-23f5ff90d6f7")
+		)
+		(pad "4" thru_hole circle
+			(at 0 7.62 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 24 "GND_L")
+			(pinfunction "Pin_4")
+			(pintype "passive")
+			(uuid "12e965c3-1c6c-4ca3-9ca6-f9f051d3fc0e")
+		)
+		(pad "5" thru_hole circle
+			(at 0 10.16 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 25 "RESET_L")
+			(pinfunction "Pin_5")
+			(pintype "passive")
+			(uuid "82b0a1d8-b3b1-4cb0-a074-4c19d4503bee")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "karmalib:Kailh_Socket_PG1350_Optional"
 		(layer "F.Cu")
 		(uuid "0aab911b-fa07-4288-a4fa-55208ec4f7c9")
@@ -193,7 +452,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -205,7 +464,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -218,6 +477,7 @@
 			)
 		)
 		(path "/352d3093-c733-46d8-a6cc-f920c8e31710")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -896,7 +1156,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -908,7 +1168,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -921,6 +1181,7 @@
 			)
 		)
 		(path "/65bbf193-b1ca-4bc6-8657-2136e8fd28d8")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1599,7 +1860,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1611,7 +1872,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1624,6 +1885,7 @@
 			)
 		)
 		(path "/18cd5941-0910-4b8f-8f76-21556e5c1d7d")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2273,6 +2535,282 @@
 			)
 		)
 	)
+	(footprint "Button_Switch_SMD:SW_SPDT_PCM12"
+		(layer "F.Cu")
+		(uuid "4080ab59-d002-4f92-a528-40cc66a34ff1")
+		(at 130.265625 39.55 180)
+		(descr "Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf")
+		(property "Reference" "SW1"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(uuid "5cc4ca93-7768-434d-a90e-96eaf59fd1a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 0 3 0)
+			(layer "F.Fab")
+			(uuid "eaa7bdde-96a8-46f3-9942-3e0b5f3c1f30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c0c1a06-ece7-4700-8528-0c8cd98ce503")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d283dccc-e308-4730-a313-9d84e50861e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3331cb1b-ff74-45a4-9c5e-a3632ec058c0")
+		(sheetname "/")
+		(sheetfile "pcb-left.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 3.45 0.72)
+			(end 3.45 -0.07)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b5d1f480-7319-4c1b-b7b6-817d7049ab45")
+		)
+		(fp_line
+			(start 1.4 -1.12)
+			(end 1.6 -1.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d2e5abf1-6f6d-4eb0-9ce3-1a36f3ba0977")
+		)
+		(fp_line
+			(start -1.6 -1.12)
+			(end 0.1 -1.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c7c02d96-4946-46b5-b6d6-470a8e1dd56d")
+		)
+		(fp_line
+			(start -2.85 1.73)
+			(end 2.85 1.73)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b078a172-0638-457d-a7c6-796328dc6266")
+		)
+		(fp_line
+			(start -3.45 -0.07)
+			(end -3.45 0.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8b5fe214-3542-4830-b370-45395a58f915")
+		)
+		(fp_line
+			(start 4.4 2.1)
+			(end -4.4 2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ae7a7151-630c-41c2-870d-f06563ae5691")
+		)
+		(fp_line
+			(start 4.4 -2.45)
+			(end 4.4 2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4a9617f5-5c92-4bf5-8a5d-35fd543d1d80")
+		)
+		(fp_line
+			(start -4.4 2.1)
+			(end -4.4 -2.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8db86f52-238e-441e-b865-1726c8cb6fee")
+		)
+		(fp_line
+			(start -4.4 -2.45)
+			(end 4.4 -2.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "13675f6c-0500-4e9d-a98d-b6b79e44bd8b")
+		)
+		(fp_line
+			(start 3.35 1.6)
+			(end 3.35 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "53be983e-3508-4d44-9b21-fffe886bff6a")
+		)
+		(fp_line
+			(start 3.35 -1)
+			(end -3.35 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f908cd5c-f8b8-4e53-a3ab-761e107f83ac")
+		)
+		(fp_line
+			(start -3.35 1.6)
+			(end 3.35 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "864290dd-51bc-4930-afea-d21b9a52ae44")
+		)
+		(fp_line
+			(start -3.35 -1)
+			(end -3.35 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2164ccd4-e61e-4f56-ba2b-bb9cc0a3ca27")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -3.2 0)
+			(layer "F.Fab")
+			(uuid "47655ca4-73a6-4ea0-bc4e-85b6a2c4dc98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" smd rect
+			(at -3.65 -0.78 180)
+			(size 1 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "fb3853e2-c02a-4b25-81b7-974fe12801d6")
+		)
+		(pad "" smd rect
+			(at -3.65 1.43 180)
+			(size 1 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "4b0c0eb1-bfe4-4705-ab27-1fa3f0d898b9")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.5 0.33 180)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c8cebb89-54ae-4ced-b921-6f456b4f4d9a")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.5 0.33 180)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "0ff85235-0d8d-4244-86e4-0ebc1982b8e0")
+		)
+		(pad "" smd rect
+			(at 3.65 -0.78 180)
+			(size 1 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "41337ace-8b5d-408e-9264-39989bffaec5")
+		)
+		(pad "" smd rect
+			(at 3.65 1.43 180)
+			(size 1 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "e43267a5-827c-48e7-b9c7-9c5868f00300")
+		)
+		(pad "1" smd rect
+			(at -2.25 -1.43 180)
+			(size 0.7 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 38 "VSW_L")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "ea146f44-1209-4408-be2e-d040e05cd990")
+		)
+		(pad "2" smd rect
+			(at 0.75 -1.43 180)
+			(size 0.7 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 23 "VBAT_L")
+			(pinfunction "B")
+			(pintype "passive")
+			(uuid "b2c512db-e887-49bf-85cd-facc0a333222")
+		)
+		(pad "3" smd rect
+			(at 2.25 -1.43 180)
+			(size 0.7 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 37 "unconnected-(SW1-C-Pad3)")
+			(pinfunction "C")
+			(pintype "passive+no_connect")
+			(uuid "2b2f33ed-319b-4bfc-b995-ce5032c3f1a4")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPDT_PCM12.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "karmalib:Kailh_Socket_PG1350_Optional"
 		(layer "F.Cu")
 		(uuid "4233b528-2480-4b50-886b-37a0367afd48")
@@ -2302,7 +2840,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 330)
 			(layer "F.Fab")
 			(hide yes)
@@ -2314,7 +2852,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 330)
 			(layer "F.Fab")
 			(hide yes)
@@ -2327,6 +2865,7 @@
 			)
 		)
 		(path "/7b554f40-8dc8-4314-880a-92168ff9bb4b")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3005,7 +3544,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3017,7 +3556,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3030,6 +3569,7 @@
 			)
 		)
 		(path "/94f34607-22a5-4711-a7c9-42084b763bff")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3708,7 +4248,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 345)
 			(layer "F.Fab")
 			(hide yes)
@@ -3720,7 +4260,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 345)
 			(layer "F.Fab")
 			(hide yes)
@@ -3733,6 +4273,7 @@
 			)
 		)
 		(path "/d58ad2bd-4c4f-4d5e-9612-3df35f3648d6")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4411,7 +4952,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4423,7 +4964,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4436,6 +4977,7 @@
 			)
 		)
 		(path "/417b8227-e5be-4432-b210-1d0b777d8032")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5114,7 +5656,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5126,7 +5668,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5139,6 +5681,7 @@
 			)
 		)
 		(path "/eebcb680-7956-45f5-9fa2-93650ac747a0")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5817,7 +6360,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5829,7 +6372,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5841,7 +6384,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0dc85b2e-9ed1-41c4-b9a4-bf8c31cb11ee")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6171,7 +6716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6183,7 +6728,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6196,6 +6741,7 @@
 			)
 		)
 		(path "/99e9d14c-cdca-4455-8578-ab16a65647ef")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6874,7 +7420,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6886,7 +7432,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6899,6 +7445,7 @@
 			)
 		)
 		(path "/60de1095-5bdf-4da7-aefa-10c8976ca45c")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7577,7 +8124,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7589,7 +8136,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7602,6 +8149,7 @@
 			)
 		)
 		(path "/648788c2-a101-43ee-841a-c8eb5a79220a")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8280,7 +8828,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8292,7 +8840,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8305,6 +8853,7 @@
 			)
 		)
 		(path "/465b9a03-31cd-49a0-a413-cd07181ead3d")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8983,7 +9532,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8995,7 +9544,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9008,6 +9557,7 @@
 			)
 		)
 		(path "/4303a97f-e6df-4a49-887b-01bcd44a570b")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9686,7 +10236,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9698,7 +10248,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9711,6 +10261,7 @@
 			)
 		)
 		(path "/5bc276f4-9082-447f-89c1-17471b611ee0")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10389,7 +10940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10401,7 +10952,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10414,6 +10965,7 @@
 			)
 		)
 		(path "/878088e9-b658-4485-abae-0590dee9a2d1")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -11063,17 +11615,15 @@
 			)
 		)
 	)
-	(footprint "karmalib:SKHLLCA010"
+	(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 		(layer "F.Cu")
 		(uuid "815c1fa2-c593-466c-8dd2-fa445fc2b574")
-		(at 123.740625 40.08)
-		(descr "alps SKHLLCA010 DIP pushbutton")
-		(tags "alps tht dip pushbutton SPST")
+		(at 122.015625 39.175)
+		(descr "CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf")
+		(tags "tactile switch kmr2")
 		(property "Reference" "RSW1"
-			(at -2.25 3.5 0)
-			(unlocked yes)
+			(at 0 -2.45 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "2fbc65f8-d497-40c2-8085-438c02606e28")
 			(effects
 				(font
@@ -11083,8 +11633,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0 -0.75 0)
-			(unlocked yes)
+			(at 0 2.55 0)
 			(layer "F.Fab")
 			(uuid "fefb3118-d517-454d-9dc6-dcb484504f2e")
 			(effects
@@ -11094,8 +11643,9 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "503f75a5-6ca8-4ab6-94f9-e192365304e0")
@@ -11106,8 +11656,9 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1109496c-c04f-4c7c-98b7-b0a008770f20")
@@ -11119,121 +11670,142 @@
 			)
 		)
 		(path "/2a19fd1a-1317-48be-9d05-329bdb6eb74a")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
-		(attr through_hole)
+		(attr smd)
 		(fp_line
-			(start -3.9 -3.75)
-			(end 3.9 -3.75)
+			(start -2.2 0.05)
+			(end -2.2 -0.05)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "51ca6c67-7854-4237-8284-fc0cc116e6cd")
+			(uuid "e78f1e46-c7bb-4e91-8f30-829fcdef26f9")
 		)
 		(fp_line
-			(start -3.9 -0.07)
-			(end -3.9 -3.75)
+			(start -2.2 1.55)
+			(end 2.2 1.55)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bb701a81-26b2-434d-9b10-02764381f864")
+			(uuid "a74e9858-d833-4742-8df2-08371909cbab")
 		)
 		(fp_line
-			(start -2.25 0.55)
-			(end 2.25 0.55)
+			(start 2.2 -1.55)
+			(end -2.2 -1.55)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ff1b07ce-0c37-4991-a1bd-ac809d795155")
+			(uuid "b0eec1ab-6e0e-4512-a8a9-b9eea54dfcdf")
 		)
 		(fp_line
-			(start -1.25 -5)
-			(end 1.25 -5)
+			(start 2.2 0.05)
+			(end 2.2 -0.05)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b666c1d6-b9a2-41d2-a2ee-6bd80f7b5dee")
+			(uuid "77920196-25ee-43e3-bcdf-ec368e1ca934")
 		)
 		(fp_line
-			(start -1.25 -3.75)
-			(end -1.25 -5)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "59a38f94-bfa0-4bc1-86e2-058e3b445e58")
-		)
-		(fp_line
-			(start 1.25 -3.75)
-			(end 1.25 -5)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2c98f933-09fc-4788-9d80-2819441dd190")
-		)
-		(fp_line
-			(start 3.9 -0.07)
-			(end 3.9 -3.75)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ab839749-81d1-4462-8c01-509d71c59318")
-		)
-		(fp_line
-			(start -3.65 -4.97)
-			(end -3.65 2.18)
+			(start -2.8 -1.8)
+			(end 2.8 -1.8)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f3fc3b08-6749-408b-b4ec-5066e52fa646")
+			(uuid "7e04cce0-0916-49fa-8347-0220e4a4d907")
 		)
 		(fp_line
-			(start -3.65 -4.97)
-			(end 3.65 -4.97)
+			(start -2.8 1.8)
+			(end -2.8 -1.8)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1c974f04-4aad-451f-b8f2-b39f795036e9")
+			(uuid "146aa085-50d4-4721-a8c1-b506b2fa9a98")
 		)
 		(fp_line
-			(start -3.65 2.18)
-			(end 3.65 2.18)
+			(start 2.8 -1.8)
+			(end 2.8 1.8)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0e6cb0be-e790-4e63-af43-bfc13d81277e")
+			(uuid "f57e9fac-7874-4809-b7b5-5bfa7b808f3e")
 		)
 		(fp_line
-			(start 3.65 -4.97)
-			(end 3.65 2.18)
+			(start 2.8 1.8)
+			(end -2.8 1.8)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8987e53a-f8bf-435e-9ffc-c425bcd7f43d")
+			(uuid "9cf35418-224a-4ff6-a3c4-c3d0be051ab9")
+		)
+		(fp_line
+			(start -2.1 -1.4)
+			(end 2.1 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "34ee285c-e84e-44a6-9d4f-aa41f0382acd")
+		)
+		(fp_line
+			(start -2.1 1.4)
+			(end -2.1 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "003d5bbe-fb42-49be-b127-88a9e96eda6b")
+		)
+		(fp_line
+			(start 2.1 -1.4)
+			(end 2.1 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "291e2602-4975-4e16-bfb6-d66663f085b2")
+		)
+		(fp_line
+			(start 2.1 1.4)
+			(end -2.1 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bbc3e3ea-cd90-4950-8717-605f42dc291f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "d917dfcf-9152-44e6-988f-8746d61db442")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.75 0)
-			(unlocked yes)
+			(at 0 -2.45 0)
 			(layer "F.Fab")
 			(uuid "533de2db-48a5-4a74-a330-6b9c735768a3")
 			(effects
@@ -11243,54 +11815,52 @@
 				)
 			)
 		)
-		(pad "1" thru_hole circle
-			(at 2.5 -1.25)
-			(size 1.8 1.8)
-			(drill 1)
-			(layers "*.Cu" "B.Mask")
-			(remove_unused_layers no)
+		(pad "1" smd rect
+			(at -2.05 -0.8)
+			(size 0.9 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "RESET_L")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "5ca86153-a432-4101-bdbd-a716c03adfd3")
 		)
-		(pad "2" thru_hole circle
-			(at -2.5 -1.25)
-			(size 1.8 1.8)
-			(drill 1)
-			(layers "*.Cu" "B.Mask")
-			(remove_unused_layers no)
+		(pad "1" smd rect
+			(at 2.05 -0.8)
+			(size 0.9 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 25 "RESET_L")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "5ca86153-a432-4101-bdbd-a716c03adfd3")
+		)
+		(pad "2" smd rect
+			(at -2.05 0.8)
+			(size 0.9 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "GND_L")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "6f839147-9de3-4e18-be19-f8b7a47bb993")
 		)
-		(pad "MP" thru_hole circle
-			(at -3.5 1.25)
-			(size 2.1 2.1)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "caa1d1c0-e792-4e02-b188-1def24826685")
-		)
-		(pad "MP" thru_hole circle
-			(at 3.5 1.25)
-			(size 2.1 2.1)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "bdd2e710-f568-409d-9e18-a19bf50bfbd5")
+		(pad "2" smd rect
+			(at 2.05 0.8)
+			(size 0.9 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 24 "GND_L")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "6f839147-9de3-4e18-be19-f8b7a47bb993")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/karmalib.step/SKHLLCA010.step"
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_CK_KMR2.stpZ"
 			(offset
-				(xyz 0 3.25 2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 180)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -11408,7 +11978,7 @@
 				)
 			)
 		)
-		(property "Value" "xiao-ble"
+		(property "Value" "MCU"
 			(at -19.8434 -0.29718 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -11445,6 +12015,7 @@
 			)
 		)
 		(path "/c4288dae-2826-4d0b-93fe-271f753c7280")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr smd exclude_from_pos_files)
 		(fp_rect
@@ -11821,9 +12392,9 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 33 "unconnected-(U1-3V3-Pad12)")
+			(net 35 "3V3_L")
 			(pinfunction "3V3")
-			(pintype "power_out+no_connect")
+			(pintype "power_out")
 			(uuid "89ec64c6-8caa-4930-bfd9-8c36ec5706e4")
 		)
 		(pad "13" thru_hole oval
@@ -11858,9 +12429,9 @@
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "unconnected-(U1-A31_SWDIO-Pad15)")
+			(net 36 "SWDIO_L")
 			(pinfunction "A31_SWDIO")
-			(pintype "input+no_connect")
+			(pintype "input")
 			(uuid "7edef6a6-3b34-4269-807f-637f331d7593")
 		)
 		(pad "16" thru_hole circle
@@ -11869,9 +12440,9 @@
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 36 "unconnected-(U1-A30_SWCLK-Pad16)")
+			(net 33 "SWDCLK_L")
 			(pinfunction "A30_SWCLK")
-			(pintype "input+no_connect")
+			(pintype "input")
 			(uuid "32d44c64-6b53-40c9-bb92-e1aaec98acb5")
 		)
 		(pad "17" thru_hole circle
@@ -11902,7 +12473,7 @@
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "VBAT_L")
+			(net 38 "VSW_L")
 			(pinfunction "BAT")
 			(pintype "bidirectional")
 			(uuid "f6e6c991-42b6-4925-baee-44fe269d6bf5")
@@ -12158,7 +12729,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12170,7 +12741,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12183,6 +12754,7 @@
 			)
 		)
 		(path "/8e4e2e2b-59f9-46db-a170-fa950b7d4409")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12861,7 +13433,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12873,7 +13445,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12886,6 +13458,7 @@
 			)
 		)
 		(path "/8fab506f-1c5f-48e0-8cb4-62277f81d405")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13663,7 +14236,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13675,7 +14248,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13688,6 +14261,7 @@
 			)
 		)
 		(path "/06c86cd3-e147-414c-985c-91dc40735b5c")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14370,7 +14944,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 240)
 			(layer "F.Fab")
 			(hide yes)
@@ -14382,7 +14956,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 240)
 			(layer "F.Fab")
 			(hide yes)
@@ -14394,7 +14968,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/1c0ddaea-9abc-4acd-9ffe-a94f829e524c")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14501,7 +15077,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14513,7 +15089,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14525,7 +15101,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/feb9c38c-2e79-43c7-95fc-6eed2ba63d91")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14632,7 +15210,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14644,7 +15222,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14656,7 +15234,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/bc1e70b9-f317-478f-93fc-5cec40fb8a07")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14763,7 +15343,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14775,7 +15355,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14787,7 +15367,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ac7cb393-f830-423c-beed-56032f186c52")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14894,7 +15476,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14906,7 +15488,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14918,7 +15500,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/1fee1d82-1f9c-47da-9fe3-a9273ecb69c8")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15025,7 +15609,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15037,7 +15621,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15049,7 +15633,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/edab3938-73d7-4cbc-9a43-df64ccc97c61")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15156,7 +15742,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15168,7 +15754,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15180,7 +15766,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/64334053-37b5-4404-bf7b-33504a8d3abf")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15287,7 +15875,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 255)
 			(layer "F.Fab")
 			(hide yes)
@@ -15299,7 +15887,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 255)
 			(layer "F.Fab")
 			(hide yes)
@@ -15311,7 +15899,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/d6885ac7-2696-4d60-8044-a32558134667")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15418,7 +16008,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15430,7 +16020,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15442,7 +16032,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e71bdf57-bc31-400e-8430-801e2ea6029f")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15549,7 +16141,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15561,7 +16153,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15573,7 +16165,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/c49494fd-0b97-42f0-8be6-3ff5650802c8")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15680,7 +16274,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15692,7 +16286,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15704,7 +16298,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/45eabdda-7b52-4dec-a185-256370fef058")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15811,7 +16407,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15823,7 +16419,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15835,7 +16431,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/1c2ea357-3ce1-4d7c-b50b-489c270f2d4c")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15942,7 +16540,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15954,7 +16552,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15966,7 +16564,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/795ab807-af61-4165-9cb4-71e7b9fde846")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16073,7 +16673,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16085,7 +16685,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16097,7 +16697,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ddb954ae-6a54-44c4-a365-0b9388a28369")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16204,7 +16806,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16216,7 +16818,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16228,7 +16830,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e9f3f907-83a5-438d-8d74-1ea98410ee6f")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16335,7 +16939,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16347,7 +16951,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16359,7 +16963,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/c66c04a7-239b-489f-abf1-6150b3a52352")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16466,7 +17072,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16478,7 +17084,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16490,7 +17096,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/710118e8-dfc5-4eb9-9df7-94ffaa69a9ea")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16597,7 +17205,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16609,7 +17217,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16621,7 +17229,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7794104e-3a0a-4ee6-9362-5e09c5e3535f")
+		(sheetname "/")
 		(sheetfile "pcb-left.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -18091,7 +18701,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 132.708856 40.0018) (xy 132.351019 40.0018) (xy 133.618784 36.750595) (xy 133.97662 36.750595)
+			(xy 137.975556 45.181435) (xy 137.617719 45.181435) (xy 138.885484 41.93023) (xy 139.24332 41.93023)
 		)
 		(stroke
 			(width 0)
@@ -18449,7 +19059,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 135.780017 40.0018) (xy 135.42218 40.0018) (xy 134.154416 36.750595) (xy 134.512253 36.750595)
+			(xy 141.046717 45.181435) (xy 140.68888 45.181435) (xy 139.421116 41.93023) (xy 139.778953 41.93023)
 		)
 		(stroke
 			(width 0)
@@ -18713,7 +19323,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 135.424403 40.001812) (xy 135.24653 40.001812) (xy 135.106897 39.643712) (xy 135.28475 39.643671)
+			(xy 140.691103 45.181447) (xy 140.51323 45.181447) (xy 140.373597 44.823347) (xy 140.55145 44.823306)
 		)
 		(stroke
 			(width 0)
@@ -19216,7 +19826,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 133.557524 39.643712) (xy 133.417892 40.001812) (xy 133.240018 40.001812) (xy 133.379671 39.643671)
+			(xy 138.824224 44.823347) (xy 138.684592 45.181447) (xy 138.506718 45.181447) (xy 138.646371 44.823306)
 		)
 		(stroke
 			(width 0)
@@ -19973,7 +20583,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 135.246617 40.0018) (xy 134.88878 40.0018) (xy 133.621016 36.750595) (xy 133.978853 36.750595)
+			(xy 140.513317 45.181435) (xy 140.15548 45.181435) (xy 138.887716 41.93023) (xy 139.245553 41.93023)
 		)
 		(stroke
 			(width 0)
@@ -21007,8 +21617,8 @@
 	)
 	(gr_poly
 		(pts
-			(xy 134.317041 38.985799) (xy 133.63843 38.985799) (xy 133.240019 40.001799) (xy 132.884419 40.001799)
-			(xy 133.795625 37.665)
+			(xy 139.583741 44.165434) (xy 138.90513 44.165434) (xy 138.506719 45.181434) (xy 138.151119 45.181434)
+			(xy 139.062325 42.844635)
 		)
 		(stroke
 			(width 0)
@@ -21176,7 +21786,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 132.339779 40.0074) (xy 132.697616 40.0074) (xy 133.96538 36.756194) (xy 133.607543 36.756194)
+			(xy 137.606479 45.187035) (xy 137.964316 45.187035) (xy 139.23208 41.935829) (xy 138.874243 41.935829)
 		)
 		(stroke
 			(width 0)
@@ -21351,7 +21961,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 132.873179 40.0074) (xy 133.231016 40.0074) (xy 134.49878 36.756194) (xy 134.140943 36.756194)
+			(xy 138.139879 45.187035) (xy 138.497716 45.187035) (xy 139.76548 41.935829) (xy 139.407643 41.935829)
 		)
 		(stroke
 			(width 0)
@@ -21363,8 +21973,8 @@
 	)
 	(gr_poly
 		(pts
-			(xy 133.802755 38.991398) (xy 134.481366 38.991398) (xy 134.879777 40.007398) (xy 135.235377 40.007398)
-			(xy 134.324171 37.670599)
+			(xy 139.069455 44.171033) (xy 139.748066 44.171033) (xy 140.146477 45.187033) (xy 140.502077 45.187033)
+			(xy 139.590871 42.850234)
 		)
 		(stroke
 			(width 0)
@@ -21461,7 +22071,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 135.41094 40.0074) (xy 135.768777 40.0074) (xy 134.501012 36.756194) (xy 134.143176 36.756194)
+			(xy 140.67764 45.187035) (xy 141.035477 45.187035) (xy 139.767712 41.935829) (xy 139.409876 41.935829)
 		)
 		(stroke
 			(width 0)
@@ -21473,7 +22083,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 134.562272 39.649311) (xy 134.701904 40.007411) (xy 134.879778 40.007411) (xy 134.740125 39.64927)
+			(xy 139.828972 44.828946) (xy 139.968604 45.187046) (xy 140.146478 45.187046) (xy 140.006825 44.828905)
 		)
 		(stroke
 			(width 0)
@@ -21529,7 +22139,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 132.695393 40.007411) (xy 132.873266 40.007411) (xy 133.012899 39.649311) (xy 132.835046 39.64927)
+			(xy 137.962093 45.187046) (xy 138.139966 45.187046) (xy 138.279599 44.828946) (xy 138.101746 44.828905)
 		)
 		(stroke
 			(width 0)
@@ -21540,8 +22150,8 @@
 		(uuid "fa4cfffa-f4a2-4fe9-a54d-a7948485f213")
 	)
 	(gr_line
-		(start 143.197303 132.82182)
-		(end 151.857557 137.82182)
+		(start 142.315625 132.393267)
+		(end 150.975879 137.393267)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21550,8 +22160,8 @@
 		(uuid "02d6edce-baeb-45f6-8558-e2117b4e8ecc")
 	)
 	(gr_line
-		(start 80.022303 33.428553)
-		(end 100.022303 33.428553)
+		(start 79.140625 33)
+		(end 99.140625 33)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21561,7 +22171,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 136.767751 129.505007) (xy 137.421066 129.803262) (xy 138.071798 130.109869) (xy 140.008473 131.079752)
+			(xy 135.886073 129.076454) (xy 136.539388 129.374709) (xy 137.19012 129.681316) (xy 139.126795 130.651199)
 		)
 		(stroke
 			(width 0.02)
@@ -21572,7 +22182,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 112.655078 123.407094) (xy 113.377317 123.44839) (xy 114.097387 123.499896) (xy 116.244418 123.714589)
+			(xy 111.7734 122.978541) (xy 112.495639 123.019837) (xy 113.215709 123.071343) (xy 115.36274 123.286036)
 		)
 		(stroke
 			(width 0.02)
@@ -21582,8 +22192,8 @@
 		(uuid "0ff9c4a9-05fd-448c-8900-17588c8e4599")
 	)
 	(gr_line
-		(start 38.272303 35.853553)
-		(end 79.022303 35.853553)
+		(start 37.390625 35.425)
+		(end 78.140625 35.425)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21593,7 +22203,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 116.244418 123.714589) (xy 116.957872 123.796061) (xy 117.669093 123.887402) (xy 119.789012 124.219501)
+			(xy 115.36274 123.286036) (xy 116.076194 123.367508) (xy 116.787415 123.458849) (xy 118.907334 123.790948)
 		)
 		(stroke
 			(width 0.02)
@@ -21603,9 +22213,9 @@
 		(uuid "14739aaf-755f-46fb-bbe3-89b0eef1b3b4")
 	)
 	(gr_arc
-		(start 100.022303 33.428553)
-		(mid 100.3759 33.574969)
-		(end 100.522303 33.928553)
+		(start 99.140625 33)
+		(mid 99.494222 33.146416)
+		(end 99.640625 33.5)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21615,7 +22225,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 123.28663 124.915409) (xy 123.981279 125.07333) (xy 124.673444 125.240542) (xy 126.734638 125.797177)
+			(xy 122.404952 124.486856) (xy 123.099601 124.644777) (xy 123.791766 124.811989) (xy 125.85296 125.368624)
 		)
 		(stroke
 			(width 0.02)
@@ -21625,9 +22235,9 @@
 		(uuid "254baaf0-38ab-4818-96b2-a7a85245f561")
 	)
 	(gr_arc
-		(start 101.022303 35.853553)
-		(mid 100.668794 35.707075)
-		(end 100.522303 35.353553)
+		(start 100.140625 35.425)
+		(mid 99.787116 35.278522)
+		(end 99.640625 34.925)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21636,9 +22246,9 @@
 		(uuid "2b6a677a-c4c0-42d5-9edf-b4feb1dcd4a1")
 	)
 	(gr_arc
-		(start 37.772303 36.353553)
-		(mid 37.91876 35.999996)
-		(end 38.272303 35.853553)
+		(start 36.890625 35.925)
+		(mid 37.037082 35.571443)
+		(end 37.390625 35.425)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21647,8 +22257,8 @@
 		(uuid "2fd0c9c1-2b48-4ffc-839a-d62f51bee577")
 	)
 	(gr_line
-		(start 79.522303 33.928553)
-		(end 79.522303 35.353553)
+		(start 78.640625 33.5)
+		(end 78.640625 34.925)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21657,9 +22267,9 @@
 		(uuid "3f50225b-c446-470b-b1a6-4b1f9d6a27eb")
 	)
 	(gr_arc
-		(start 38.272303 118.028553)
-		(mid 37.918794 117.882075)
-		(end 37.772303 117.528553)
+		(start 37.390625 117.6)
+		(mid 37.037116 117.453522)
+		(end 36.890625 117.1)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21668,8 +22278,8 @@
 		(uuid "50a2ddad-cf71-4050-bab2-c8da991786e1")
 	)
 	(gr_line
-		(start 101.022303 35.853553)
-		(end 141.772303 35.853553)
+		(start 100.140625 35.425)
+		(end 140.890625 35.425)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21679,7 +22289,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 140.008473 131.079752) (xy 140.651439 131.411404) (xy 141.291811 131.751418) (xy 143.197303 132.82182)
+			(xy 139.126795 130.651199) (xy 139.769761 130.982851) (xy 140.410133 131.322865) (xy 142.315625 132.393267)
 		)
 		(stroke
 			(width 0.02)
@@ -21690,7 +22300,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 130.131044 126.85988) (xy 130.80511 127.090121) (xy 131.476567 127.329105) (xy 133.475329 128.097544)
+			(xy 129.249366 126.431327) (xy 129.923432 126.661568) (xy 130.594889 126.900552) (xy 132.593651 127.668991)
 		)
 		(stroke
 			(width 0.02)
@@ -21700,9 +22310,9 @@
 		(uuid "5e887de2-7dd9-4d0f-a77b-442d6679bee8")
 	)
 	(gr_arc
-		(start 162.357557 119.635286)
-		(mid 162.590494 119.938892)
-		(end 162.54057 120.318299)
+		(start 161.475879 119.206733)
+		(mid 161.708816 119.510339)
+		(end 161.658892 119.889746)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21712,7 +22322,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 126.734638 125.797177) (xy 127.419121 125.991808) (xy 128.101017 126.195494) (xy 130.131044 126.85988)
+			(xy 125.85296 125.368624) (xy 126.537443 125.563255) (xy 127.219339 125.766941) (xy 129.249366 126.431327)
 		)
 		(stroke
 			(width 0.02)
@@ -21722,8 +22332,8 @@
 		(uuid "71378b2c-962d-41ad-8677-3b646ce073a0")
 	)
 	(gr_line
-		(start 99.022303 123.303553)
-		(end 109.022303 123.303553)
+		(start 98.140625 122.875)
+		(end 108.140625 122.875)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21732,9 +22342,9 @@
 		(uuid "7188a2aa-6ec7-4255-82b2-45b6a1699ca3")
 	)
 	(gr_arc
-		(start 98.022303 118.028553)
-		(mid 98.3759 118.174969)
-		(end 98.522303 118.528553)
+		(start 97.140625 117.6)
+		(mid 97.494222 117.746416)
+		(end 97.640625 118.1)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21743,8 +22353,8 @@
 		(uuid "7338c0a6-7f63-49ce-bd7a-7a57a096ebdf")
 	)
 	(gr_line
-		(start 100.522303 33.928553)
-		(end 100.522303 35.353553)
+		(start 99.640625 33.5)
+		(end 99.640625 34.925)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21753,8 +22363,8 @@
 		(uuid "7a9562d1-2e1e-4cc2-b1b3-40a70c09917a")
 	)
 	(gr_line
-		(start 98.522303 118.528553)
-		(end 98.522303 122.803553)
+		(start 97.640625 118.1)
+		(end 97.640625 122.375)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21763,8 +22373,8 @@
 		(uuid "8f195b74-c88e-463c-8d49-6543ba6af956")
 	)
 	(gr_line
-		(start 162.357557 119.635286)
-		(end 142.272303 108.039059)
+		(start 161.475879 119.206733)
+		(end 141.390625 107.610506)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21773,8 +22383,8 @@
 		(uuid "96b2e291-3a52-4a55-ab0d-7a0ce76a9073")
 	)
 	(gr_line
-		(start 152.54057 137.638807)
-		(end 162.54057 120.318299)
+		(start 151.658892 137.210254)
+		(end 161.658892 119.889746)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21783,9 +22393,9 @@
 		(uuid "990dc7bb-049d-4feb-bc0a-589586a4b4ef")
 	)
 	(gr_arc
-		(start 79.522303 33.928553)
-		(mid 79.66876 33.574996)
-		(end 80.022303 33.428553)
+		(start 78.640625 33.5)
+		(mid 78.787082 33.146443)
+		(end 79.140625 33)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21794,9 +22404,9 @@
 		(uuid "9c2f04b5-08c3-4f2c-8c6a-819e2a728d1c")
 	)
 	(gr_arc
-		(start 141.772303 35.853553)
-		(mid 142.1259 35.999969)
-		(end 142.272303 36.353553)
+		(start 140.890625 35.425)
+		(mid 141.244222 35.571416)
+		(end 141.390625 35.925)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21805,9 +22415,9 @@
 		(uuid "9c8b835f-c0b4-41be-872a-b8e9715ae3e1")
 	)
 	(gr_arc
-		(start 99.022303 123.303553)
-		(mid 98.668794 123.157075)
-		(end 98.522303 122.803553)
+		(start 98.140625 122.875)
+		(mid 97.787116 122.728522)
+		(end 97.640625 122.375)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21816,9 +22426,9 @@
 		(uuid "a69e0d49-029a-4199-ac33-e9da996bd8ea")
 	)
 	(gr_arc
-		(start 152.54057 137.638807)
-		(mid 152.236976 137.871785)
-		(end 151.857557 137.82182)
+		(start 151.658892 137.210254)
+		(mid 151.355298 137.443232)
+		(end 150.975879 137.393267)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21827,8 +22437,8 @@
 		(uuid "a8772b57-6f69-4398-8dfa-f465efbd8c1f")
 	)
 	(gr_line
-		(start 37.772303 36.353553)
-		(end 37.772303 117.528553)
+		(start 36.890625 35.925)
+		(end 36.890625 117.1)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21838,7 +22448,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 133.475329 128.097544) (xy 134.138989 128.362191) (xy 134.800056 128.635315) (xy 136.767751 129.505007)
+			(xy 132.593651 127.668991) (xy 133.257311 127.933638) (xy 133.918378 128.206762) (xy 135.886073 129.076454)
 		)
 		(stroke
 			(width 0.02)
@@ -21848,8 +22458,8 @@
 		(uuid "beb29ab6-a371-446a-83a9-bb1602a8ba87")
 	)
 	(gr_line
-		(start 142.272303 36.353553)
-		(end 142.272303 108.039059)
+		(start 141.390625 35.925)
+		(end 141.390625 107.610506)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21859,7 +22469,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 119.789012 124.219501) (xy 120.49332 124.339775) (xy 121.19528 124.469593) (xy 123.28663 124.915409)
+			(xy 118.907334 123.790948) (xy 119.611642 123.911222) (xy 120.313602 124.04104) (xy 122.404952 124.486856)
 		)
 		(stroke
 			(width 0.02)
@@ -21870,7 +22480,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 109.022303 123.303553) (xy 109.753163 123.303553) (xy 110.481874 123.31394) (xy 112.655078 123.407094)
+			(xy 108.140625 122.875) (xy 108.871485 122.875) (xy 109.600196 122.885387) (xy 111.7734 122.978541)
 		)
 		(stroke
 			(width 0.02)
@@ -21880,9 +22490,9 @@
 		(uuid "cfcb1213-2cde-401a-b505-d0961e835c0b")
 	)
 	(gr_arc
-		(start 79.522303 35.353553)
-		(mid 79.375867 35.707102)
-		(end 79.022303 35.853553)
+		(start 78.640625 34.925)
+		(mid 78.494189 35.278549)
+		(end 78.140625 35.425)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21891,8 +22501,8 @@
 		(uuid "db02740b-e9e2-431a-b57b-0020581150b3")
 	)
 	(gr_line
-		(start 38.272303 118.028553)
-		(end 98.022303 118.028553)
+		(start 37.390625 117.6)
+		(end 97.140625 117.6)
 		(stroke
 			(width 0.02)
 			(type solid)
@@ -21958,7 +22568,7 @@
 		)
 	)
 	(gr_text "RST"
-		(at 122.328125 42.145625 0)
+		(at 120.603125 41.240625 0)
 		(layer "F.SilkS" knockout)
 		(uuid "42b0c7dd-051a-4ddb-9754-a79c04003bfc")
 		(effects
@@ -21972,45 +22582,45 @@
 		(render_cache "RST" 0
 			(polygon
 				(pts
-					(xy 122.841742 40.980116) (xy 122.913553 40.991464) (xy 122.972132 41.008789) (xy 123.026596 41.03513)
-					(xy 123.069165 41.067471) (xy 123.101642 41.105876) (xy 123.124884 41.150621) (xy 123.139501 41.203725)
-					(xy 123.144689 41.267076) (xy 123.13845 41.332157) (xy 123.120815 41.386389) (xy 123.092604 41.434255)
-					(xy 123.056212 41.474072) (xy 123.012924 41.507273) (xy 122.963339 41.535316) (xy 123.247943 41.975625)
-					(xy 123.003578 41.975625) (xy 122.780218 41.59253) (xy 122.660783 41.59253) (xy 122.660783 41.975625)
-					(xy 122.446827 41.975625) (xy 122.446827 41.427177) (xy 122.660783 41.427177) (xy 122.749932 41.427177)
-					(xy 122.805721 41.422659) (xy 122.848542 41.410415) (xy 122.881212 41.391701) (xy 122.905913 41.36474)
-					(xy 122.921628 41.327629) (xy 122.927435 41.276907) (xy 122.922445 41.234381) (xy 122.908751 41.202291)
-					(xy 122.885604 41.177069) (xy 122.85056 41.158083) (xy 122.807989 41.147388) (xy 122.748955 41.143306)
-					(xy 122.660783 41.143306) (xy 122.660783 41.427177) (xy 122.446827 41.427177) (xy 122.446827 40.976)
-					(xy 122.754267 40.976)
+					(xy 121.116742 40.075116) (xy 121.188553 40.086464) (xy 121.247132 40.103789) (xy 121.301596 40.13013)
+					(xy 121.344165 40.162471) (xy 121.376642 40.200876) (xy 121.399884 40.245621) (xy 121.414501 40.298725)
+					(xy 121.419689 40.362076) (xy 121.41345 40.427157) (xy 121.395815 40.481389) (xy 121.367604 40.529255)
+					(xy 121.331212 40.569072) (xy 121.287924 40.602273) (xy 121.238339 40.630316) (xy 121.522943 41.070625)
+					(xy 121.278578 41.070625) (xy 121.055218 40.68753) (xy 120.935783 40.68753) (xy 120.935783 41.070625)
+					(xy 120.721827 41.070625) (xy 120.721827 40.522177) (xy 120.935783 40.522177) (xy 121.024932 40.522177)
+					(xy 121.080721 40.517659) (xy 121.123542 40.505415) (xy 121.156212 40.486701) (xy 121.180913 40.45974)
+					(xy 121.196628 40.422629) (xy 121.202435 40.371907) (xy 121.197445 40.329381) (xy 121.183751 40.297291)
+					(xy 121.160604 40.272069) (xy 121.12556 40.253083) (xy 121.082989 40.242388) (xy 121.023955 40.238306)
+					(xy 120.935783 40.238306) (xy 120.935783 40.522177) (xy 120.721827 40.522177) (xy 120.721827 40.071)
+					(xy 121.029267 40.071)
 				)
 			)
 			(polygon
 				(pts
-					(xy 123.961865 41.698409) (xy 123.956828 41.755916) (xy 123.942268 41.806854) (xy 123.918451 41.852465)
-					(xy 123.885935 41.892298) (xy 123.844605 41.926058) (xy 123.793154 41.953948) (xy 123.737438 41.973028)
-					(xy 123.67154 41.985248) (xy 123.593669 41.989607) (xy 123.492186 41.982585) (xy 123.396992 41.962313)
-					(xy 123.310897 41.929402) (xy 123.310897 41.732053) (xy 123.458541 41.788718) (xy 123.535275 41.808235)
-					(xy 123.610461 41.814607) (xy 123.659441 41.810723) (xy 123.693747 41.800625) (xy 123.721665 41.783682)
-					(xy 123.73997 41.762828) (xy 123.75092 41.737595) (xy 123.754686 41.70824) (xy 123.748184 41.673163)
-					(xy 123.728796 41.643821) (xy 123.699791 41.618996) (xy 123.659492 41.594117) (xy 123.560085 41.544414)
-					(xy 123.484492 41.504541) (xy 123.445126 41.478893) (xy 123.406762 41.447144) (xy 123.37329 41.409545)
-					(xy 123.345884 41.363857) (xy 123.328376 41.311651) (xy 123.322071 41.246254) (xy 123.326946 41.187709)
-					(xy 123.340874 41.137076) (xy 123.363348 41.092931) (xy 123.394351 41.054261) (xy 123.433191 41.021935)
-					(xy 123.480951 40.995661) (xy 123.53288 40.977497) (xy 123.59244 40.966047) (xy 123.660897 40.962017)
-					(xy 123.738013 40.966646) (xy 123.809946 40.980213) (xy 123.880881 41.0018) (xy 123.957652 41.032053)
-					(xy 123.889081 41.197223) (xy 123.821825 41.171606) (xy 123.76586 41.153808) (xy 123.71065 41.142279)
-					(xy 123.653875 41.138421) (xy 123.616427 41.14178) (xy 123.586647 41.151061) (xy 123.561635 41.166392)
-					(xy 123.543965 41.186048) (xy 123.533061 41.210046) (xy 123.52925 41.239232) (xy 123.534608 41.271911)
-					(xy 123.550255 41.298767) (xy 123.574904 41.321525) (xy 123.613269 41.345661) (xy 123.718294 41.398845)
-					(xy 123.791627 41.437169) (xy 123.849147 41.474438) (xy 123.897401 41.517662) (xy 123.932434 41.566823)
-					(xy 123.948245 41.60341) (xy 123.958289 41.646813)
+					(xy 122.236865 40.793409) (xy 122.231828 40.850916) (xy 122.217268 40.901854) (xy 122.193451 40.947465)
+					(xy 122.160935 40.987298) (xy 122.119605 41.021058) (xy 122.068154 41.048948) (xy 122.012438 41.068028)
+					(xy 121.94654 41.080248) (xy 121.868669 41.084607) (xy 121.767186 41.077585) (xy 121.671992 41.057313)
+					(xy 121.585897 41.024402) (xy 121.585897 40.827053) (xy 121.733541 40.883718) (xy 121.810275 40.903235)
+					(xy 121.885461 40.909607) (xy 121.934441 40.905723) (xy 121.968747 40.895625) (xy 121.996665 40.878682)
+					(xy 122.01497 40.857828) (xy 122.02592 40.832595) (xy 122.029686 40.80324) (xy 122.023184 40.768163)
+					(xy 122.003796 40.738821) (xy 121.974791 40.713996) (xy 121.934492 40.689117) (xy 121.835085 40.639414)
+					(xy 121.759492 40.599541) (xy 121.720126 40.573893) (xy 121.681762 40.542144) (xy 121.64829 40.504545)
+					(xy 121.620884 40.458857) (xy 121.603376 40.406651) (xy 121.597071 40.341254) (xy 121.601946 40.282709)
+					(xy 121.615874 40.232076) (xy 121.638348 40.187931) (xy 121.669351 40.149261) (xy 121.708191 40.116935)
+					(xy 121.755951 40.090661) (xy 121.80788 40.072497) (xy 121.86744 40.061047) (xy 121.935897 40.057017)
+					(xy 122.013013 40.061646) (xy 122.084946 40.075213) (xy 122.155881 40.0968) (xy 122.232652 40.127053)
+					(xy 122.164081 40.292223) (xy 122.096825 40.266606) (xy 122.04086 40.248808) (xy 121.98565 40.237279)
+					(xy 121.928875 40.233421) (xy 121.891427 40.23678) (xy 121.861647 40.246061) (xy 121.836635 40.261392)
+					(xy 121.818965 40.281048) (xy 121.808061 40.305046) (xy 121.80425 40.334232) (xy 121.809608 40.366911)
+					(xy 121.825255 40.393767) (xy 121.849904 40.416525) (xy 121.888269 40.440661) (xy 121.993294 40.493845)
+					(xy 122.066627 40.532169) (xy 122.124147 40.569438) (xy 122.172401 40.612662) (xy 122.207434 40.661823)
+					(xy 122.223245 40.69841) (xy 122.233289 40.741813)
 				)
 			)
 			(polygon
 				(pts
-					(xy 124.528447 41.975625) (xy 124.314491 41.975625) (xy 124.314491 41.154114) (xy 124.044114 41.154114)
-					(xy 124.044114 40.976) (xy 124.798275 40.976) (xy 124.798275 41.154114) (xy 124.528447 41.154114)
+					(xy 122.803447 41.070625) (xy 122.589491 41.070625) (xy 122.589491 40.249114) (xy 122.319114 40.249114)
+					(xy 122.319114 40.071) (xy 123.073275 40.071) (xy 123.073275 40.249114) (xy 122.803447 40.249114)
 				)
 			)
 		)
